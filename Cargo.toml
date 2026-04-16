@@ -1,0 +1,16 @@
+[package]
+name = "synthesizer-core"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89.0"
+description = "Shared typed-AST primitives for the pleme-io synthesizer family"
+license = "MIT"
+repository = "https://github.com/pleme-io/synthesizer-core"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+
+[lints.clippy]
+pedantic = "warn"
