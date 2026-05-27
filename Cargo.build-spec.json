@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "workspace": {
     "root": "/Users/drzzln/code/github/pleme-io/synthesizer-core",
     "members": [
@@ -23,6 +23,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "autocfg",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -44,6 +49,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "bit_set",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "bit_vec",
@@ -92,6 +102,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "bit_vec",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -112,6 +127,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "bitflags",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -130,6 +150,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "cfg_if",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -150,6 +175,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "errno",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "libc",
@@ -192,6 +222,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "fastrand",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -213,6 +248,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "fnv",
+        "path": "lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -233,6 +273,11 @@
       ],
       "proc_macro": false,
       "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "getrandom",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -296,6 +341,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "getrandom",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -362,6 +412,11 @@
       ],
       "proc_macro": false,
       "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "libc",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -382,6 +437,11 @@
       ],
       "proc_macro": false,
       "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "num_traits",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "autocfg",
@@ -424,6 +484,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "once_cell",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -445,6 +510,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "ppv_lite86",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "zerocopy",
@@ -496,6 +566,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "proptest",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "bit_set",
@@ -749,6 +824,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "quick_error",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -771,6 +851,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "rand_chacha",
@@ -829,6 +914,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand_chacha",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "ppv_lite86",
@@ -895,6 +985,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand_core",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "getrandom",
@@ -933,6 +1028,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rand_xorshift",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "rand_core",
@@ -982,6 +1082,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "regex_syntax",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -1005,6 +1110,11 @@
       ],
       "proc_macro": false,
       "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "rustix",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "bitflags",
@@ -1089,6 +1199,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "rusty_fork",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "fnv",
@@ -1192,6 +1307,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "synthesizer_core",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -1213,6 +1333,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "tempfile",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "fastrand",
@@ -1313,6 +1438,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "unarray",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -1331,6 +1461,24 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [
+        {
+          "name": "exit",
+          "path": "src/bin/exit.rs"
+        },
+        {
+          "name": "reader",
+          "path": "src/bin/reader.rs"
+        },
+        {
+          "name": "sleep",
+          "path": "src/bin/sleep.rs"
+        }
+      ],
+      "lib_target": {
+        "name": "wait_timeout",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "libc",
@@ -1371,6 +1519,11 @@
       ],
       "proc_macro": false,
       "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "zerocopy",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -1380,5 +1533,11 @@
   "root_crate": "synthesizer-core-0.1.0",
   "workspace_members": [
     "synthesizer-core-0.1.0"
-  ]
+  ],
+  "flake_metadata": {
+    "synthesizer-core": {
+      "default_bin": null,
+      "repo": "pleme-io/synthesizer-core"
+    }
+  }
 }
