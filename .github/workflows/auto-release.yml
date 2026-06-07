@@ -13,4 +13,8 @@ jobs:
     uses: pleme-io/substrate/.github/workflows/cargo-auto-release.yml@main
     with:
       bump-type: ${{ inputs.bump-type || 'patch' }}
+      # crate2nix regen is for nix-build integration, not the crates.io publish;
+      # it fails on this repo's existing Cargo.nix/flake state. Skip it — cargo
+      # publish only needs Cargo.toml + Cargo.lock.
+      regenerate-cargo-nix: "false"
     secrets: inherit
